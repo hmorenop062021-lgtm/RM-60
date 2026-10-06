@@ -1,0 +1,13 @@
+{
+  "bandera": "5000",
+  "tiempo_limite_lector_ms": 100,
+  "productos_unidad": {
+    "103": "Pan Amasado",
+    "104": "Empanada de Pino",
+    "105": "Torta Selva Negra",
+    "106": "Pastel Milhojas",
+    "108": "Dobladita",
+    "109": "Pan de Molde",
+    "110": "Brazo de Reina"
+  }
+}

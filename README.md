@@ -1,0 +1,30 @@
+﻿# RM‑60 – Configuración y daemon para Eleventa
+
+Este repositorio contiene:
+
+* productos_rm60.csv – Lista de productos (PLU, nombre, precio, unidad) lista para importar a la balanza DIGI RM‑60 mediante LabelNet o carga manual.
+* alanza_proxy.py – Daemon Python que intercepta el lector de barras y envía teclas simuladas a Eleventa.
+* config.json – Parámetros del daemon (bandera, timeout y lista de productos que se venden por pieza).
+* Instrucciones rápidas de uso están en este mismo archivo.
+
+## Cómo usar
+
+1. Importa productos_rm60.csv a la RM‑60 (LabelNet → PLU → Send) o carga los PLUs manualmente desde el teclado de la balanza.
+2. Asegúrate de que la balanza tenga:
+   * SPEC 048 = 0 (Allow barcode)
+   * SPEC 072 = 1 (F1F2 CCCCC XXXXX CD)
+   * SPEC 075 = 1 (peso) **o** 2 (precio) según tu flujo de negocio.
+   * Bandera (S16) = 05 (de modo que el ticket empiece con 5000).
+3. Ejecuta el daemon con privilegios de Administrador:
+   `
+   INICIAR_PROXY_BALANZA.bat   # o ejecuta directamente: python balanza_proxy.py
+   `
+4. En Eleventa, configura los productos que aparecen en unit_products como “Por unidad / Pza” y los demás como “A granel (usa báscula)”.
+5. Al escanear el ticket de la balanza, el daemon transformará:
+   * 5000104000017 → 104{ENTER} (1 empanada)
+   * 5000104000024 → 2*104{ENTER} (2 empanadas)
+   * Los códigos de productos pesables se dejan tal cual para que Eleventa los interprete como peso.
+
+## Licencia
+
+MIT – siéntete libre de usar, modificar y distribuir.

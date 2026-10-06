@@ -1,0 +1,21 @@
+CODIGO,NOMBRE,PRECIO_COSTO,PRECIO_VENTA,DEPARTAMENTO,TIPO_VENTA,UNIDAD
+001,Pan Blanco (kg),28.00,45.00,Panaderia,Granel,KG
+002,Pan Integral (kg),35.00,55.00,Panaderia,Granel,KG
+003,Concha Vanilla (pza),3.50,8.00,Panaderia,Unidad,PZA
+004,Concha Chocolate (pza),4.00,9.00,Panaderia,Unidad,PZA
+005,Oreja Glaseada (pza),4.50,10.00,Panaderia,Unidad,PZA
+006,Cuernito (pza),3.00,7.00,Panaderia,Unidad,PZA
+007,Polvoron (pza),2.50,6.00,Panaderia,Unidad,PZA
+008,Garibaldi (pza),3.00,7.50,Panaderia,Unidad,PZA
+009,Empanada de Nata (pza),5.00,12.00,Panaderia,Unidad,PZA
+010,Bisquet (pza),3.50,8.50,Panaderia,Unidad,PZA
+011,Donas Glaseadas (pza),4.00,9.00,Panaderia,Unidad,PZA
+012,Pan Dulce Mezclado (kg),32.00,50.00,Panaderia,Granel,KG
+013,Rebanada Pastel Tres Leches (pza),18.00,35.00,Pasteleria,Unidad,PZA
+014,Rebanada Pastel Chocolate (pza),20.00,38.00,Pasteleria,Unidad,PZA
+015,Galletas de Avena (kg),25.00,42.00,Panaderia,Granel,KG
+016,Pan de Huevo (kg),30.00,48.00,Panaderia,Granel,KG
+017,Cemitas (pza),4.50,11.00,Panaderia,Unidad,PZA
+018,Bolillo (pza),2.00,5.00,Panaderia,Unidad,PZA
+019,Marraqueta (pza),2.50,6.00,Panaderia,Unidad,PZA
+020,Chile Relleno con Queso (pza),8.00,18.00,Panaderia,Unidad,PZA

@@ -2,8 +2,10 @@
 
 Este repositorio contiene:
 
-* productos_rm60.csv – Lista de productos (PLU, nombre, precio, unidad) lista para importar a la balanza DIGI RM‑60 mediante LabelNet o carga manual.
-* alanza_proxy.py – Daemon Python que intercepta el lector de barras y envía teclas simuladas a Eleventa.
+* productos_rm60.csv – Lista de productos (PLU, nombre, precio, unidad) lista para importar a la balanza DIGI RM‑60 mediante LabelNet o carga manual. PLU empieza en **110** y aumenta de **10 en 10**. Se han excluido filas con precio 0 y títulos de familia (ej. “FAMILIA PAN”, “PASTELERÍA”).
+* alanza_proxy.py – Daemon Python que intercepta el lector de barras y envía teclas simuladas a Eleventa. Transforma los tickets de la balanza:
+  * Productos unitarios → CODIGO{ENTER} (o CANTIDAD*CODIGO{ENTER})
+  * Productos pesables → deja el código tal cual para que Eleventa lo interprete como peso.
 * config.json – Parámetros del daemon (bandera, timeout y lista de productos que se venden por pieza).
 * Instrucciones rápidas de uso están en este mismo archivo.
 

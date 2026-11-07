@@ -1,21 +1,96 @@
-CODIGO,NOMBRE,PRECIO_COSTO,PRECIO_VENTA,DEPARTAMENTO,TIPO_VENTA,UNIDAD
-001,Pan Blanco (kg),28.00,45.00,Panaderia,Granel,KG
-002,Pan Integral (kg),35.00,55.00,Panaderia,Granel,KG
-003,Concha Vanilla (pza),3.50,8.00,Panaderia,Unidad,PZA
-004,Concha Chocolate (pza),4.00,9.00,Panaderia,Unidad,PZA
-005,Oreja Glaseada (pza),4.50,10.00,Panaderia,Unidad,PZA
-006,Cuernito (pza),3.00,7.00,Panaderia,Unidad,PZA
-007,Polvoron (pza),2.50,6.00,Panaderia,Unidad,PZA
-008,Garibaldi (pza),3.00,7.50,Panaderia,Unidad,PZA
-009,Empanada de Nata (pza),5.00,12.00,Panaderia,Unidad,PZA
-010,Bisquet (pza),3.50,8.50,Panaderia,Unidad,PZA
-011,Donas Glaseadas (pza),4.00,9.00,Panaderia,Unidad,PZA
-012,Pan Dulce Mezclado (kg),32.00,50.00,Panaderia,Granel,KG
-013,Rebanada Pastel Tres Leches (pza),18.00,35.00,Pasteleria,Unidad,PZA
-014,Rebanada Pastel Chocolate (pza),20.00,38.00,Pasteleria,Unidad,PZA
-015,Galletas de Avena (kg),25.00,42.00,Panaderia,Granel,KG
-016,Pan de Huevo (kg),30.00,48.00,Panaderia,Granel,KG
-017,Cemitas (pza),4.50,11.00,Panaderia,Unidad,PZA
-018,Bolillo (pza),2.00,5.00,Panaderia,Unidad,PZA
-019,Marraqueta (pza),2.50,6.00,Panaderia,Unidad,PZA
-020,Chile Relleno con Queso (pza),8.00,18.00,Panaderia,Unidad,PZA
+﻿CÓDIGO,DESCRIPCIÓN,PRECIO DE COSTO,PRECIO DE VENTA,PRECIO DE MAYOREO,DEPARTAMENTO,CANTIDAD INVENTARIO,MÍNIMO,TIPO DE VENTA
+200,MARRAQUETA,0,2500,2500,Panaderia,100,0,Granel
+202,HALLULLA,0,2500,2500,Panaderia,100,0,Granel
+204,COLISA,0,2500,2500,Panaderia,100,0,Granel
+206,DOBLADA,0,2500,2500,Panaderia,100,0,Granel
+208,INTEGRAL HALLULLA,0,2650,2650,Panaderia,100,0,Granel
+210,AMASADO,0,2500,2500,Panaderia,100,0,Granel
+212,PAN DE COMPLETO,0,1,1,Panaderia,100,0,Granel
+214,PAN DE CHURRASCO,0,1,1,Panaderia,100,0,Granel
+216,CIABTTA MUTIGRANO INTEGRAL,0,2300,2300,Panaderia,100,0,Granel
+218,PAN MULTIGRANO BLANCO BOLLOS,0,1,1,Panaderia,100,0,Unidad
+224,TARTALETA CHICA,0,1200,1200,Pasteleria Fria,100,0,Unidad
+226,TARTALETA GRANDE FAMILIAR,0,8600,8600,Pasteleria Fria,100,0,Unidad
+228,PIE DE LIMON INDIVIDUAL,0,1200,1200,Pasteleria Fria,100,0,Unidad
+230,PIE DE LIMON FAMILIAR,0,8600,8600,Pasteleria Fria,100,0,Unidad
+232,ECLER INDIVIDUAL,0,1200,1200,Pasteleria Fria,100,0,Unidad
+234,REPOLLITO,0,1000,1000,Pasteleria Fria,100,0,Unidad
+236,ZAPATITOS,0,1700,1700,Pasteleria Fria,100,0,Unidad
+238,STRUDEL,0,1350,1350,Pasteleria Fria,100,0,Unidad
+240,MADALENA,0,950,950,Pasteleria Fria,100,0,Unidad
+242,KUTCHEN INDIVIDUAL,0,1500,1500,Pasteleria Fria,100,0,Unidad
+244,KUTCHEN FAMILIAR,0,9000,9000,Pasteleria Fria,100,0,Unidad
+246,AVELLANAS,0,1,1,Pasteleria Fria,100,0,Unidad
+248,AVELLANAS,0,1,1,Pasteleria Fria,100,0,Unidad
+250,KUTCHEN MARACUYA,0,2100,2100,Pasteleria Fria,100,0,Unidad
+252,KUTCHEN MARACUYA,0,13600,13600,Pasteleria Fria,100,0,Unidad
+254,KUCHEN DE  NUEZ,0,2600,2600,Pasteleria Fria,100,0,Unidad
+256,KUCHEN DE  NUEZ,0,1,1,Pasteleria Fria,100,0,Unidad
+258,PAN DE MIEL,0,800,800,Pasteleria Fria,100,0,Unidad
+260,COCADAS COCMIX,0,800,800,Pasteleria Fria,100,0,Unidad
+262,COCADAS TRADISIONAL,0,400,400,Pasteleria Fria,100,0,Unidad
+264,BERLINES CON CREMA PASTELERAS,0,1100,1100,Pasteleria Fria,100,0,Unidad
+266,BERLIN MEXITO,0,1100,1100,Pasteleria Fria,100,0,Unidad
+268,TORTAS LUCUMA,0,1900,1900,Pasteleria Fria,100,0,Unidad
+270,TORTAS LUCUMA  8 PERSONAS,0,7900,7900,Pasteleria Fria,100,0,Unidad
+272,TORTAS LUCUMA  15 PERSONAS,0,15990,15990,Pasteleria Fria,100,0,Unidad
+274,MOKA,0,1900,1900,Pasteleria Fria,100,0,Unidad
+276,MOKA,0,7900,7900,Pasteleria Fria,100,0,Unidad
+278,MOKA,0,15900,15900,Pasteleria Fria,100,0,Unidad
+280,SELVA NEGRA,0,2300,2300,Pasteleria Fria,100,0,Unidad
+282,SELVA NEGRA  PARA 8 PERSONAS,0,8500,8500,Pasteleria Fria,100,0,Unidad
+284,SELVA NEGRA  REDONDA,0,1,1,Pasteleria Fria,100,0,Unidad
+286,TRES LECHES,0,1900,1900,Pasteleria Fria,100,0,Unidad
+288,TRES LECHES,0,7900,7900,Pasteleria Fria,100,0,Unidad
+290,CHEEESKAKE FRUTOS ROJOS,0,3200,3200,Pasteleria Fria,100,0,Unidad
+292,CHEEESKAKE FRUTOS ROJOS,0,1,1,Pasteleria Fria,100,0,Unidad
+294,MANJARATE,0,3200,3200,Pasteleria Fria,100,0,Unidad
+296,MANJARATE,0,1,1,Pasteleria Fria,100,0,Unidad
+298,KUCHEN DE MANZANA,0,1500,1500,Pasteleria Fria,100,0,Unidad
+300,KUCHEN DE MANZANA,0,9000,9000,Pasteleria Fria,100,0,Unidad
+302,TORTA DE YOGHURT,0,1900,1900,Pasteleria Fria,100,0,Unidad
+304,TORTA DE YOGHURT,0,13000,13000,Pasteleria Fria,100,0,Unidad
+306,TORTA DE MIL  HOJAS,0,1300,1300,Pasteleria Fria,100,0,Unidad
+308,TORTA DE MIL  HOJAS,0,1,1,Pasteleria Fria,100,0,Unidad
+310,HOJARASCA,0,1,1,Pasteleria Fria,100,0,Unidad
+312,HOJARASCA,0,1,1,Pasteleria Fria,100,0,Unidad
+328,MENDOCINOS ALFAJORES,0,1300,1300,Pasteleria Seca,100,0,Unidad
+330,MAICENITOS LFAJJORES,0,900,900,Pasteleria Seca,100,0,Unidad
+332,ALFAJOR DE HOJAS  NUEZ,0,1350,1350,Pasteleria Seca,100,0,Unidad
+334,MIL HOJAS,0,1300,1300,Pasteleria Seca,100,0,Unidad
+336,CACHITOS TRADISIONAL,0,950,950,Pasteleria Seca,100,0,Unidad
+338,CACHITOS CHOCOLATE,0,1100,1100,Pasteleria Seca,100,0,Unidad
+340,EMPANADA DE HOJA,0,1600,1600,Pasteleria Seca,100,0,Unidad
+342,PALMERAS,0,1000,1000,Pasteleria Seca,100,0,Unidad
+344,MUFFIN  CHOCOLATE,0,1000,1000,Pasteleria Seca,100,0,Unidad
+346,MUFFIN  FRUTILLA,0,1000,1000,Pasteleria Seca,100,0,Unidad
+352,QUEQUE LIMON,0,1000,1000,Pasteleria Seca,100,0,Unidad
+354,QUEQUE NARANJA,0,1000,1000,Pasteleria Seca,100,0,Unidad
+356,QUEQUE ZANAHORIA,0,1000,1000,Pasteleria Seca,100,0,Unidad
+358,QUEQUE SIN AZUCAR,0,1000,1000,Pasteleria Seca,100,0,Unidad
+360,QUEQUE PLATANO,0,1000,1000,Pasteleria Seca,100,0,Unidad
+362,QUEQUE NUEZ,0,1000,1000,Pasteleria Seca,100,0,Unidad
+366,QUEQUE LIMON,0,4000,4000,Pasteleria Seca,100,0,Unidad
+368,QUEQUE NARANJA,0,4000,4000,Pasteleria Seca,100,0,Unidad
+370,QUEQUE ZANAHORIA,0,4000,4000,Pasteleria Seca,100,0,Unidad
+372,QUEQUE SIN AZUCAR,0,4000,4000,Pasteleria Seca,100,0,Unidad
+374,QUEQUE PLATANO,0,4500,4500,Pasteleria Seca,100,0,Unidad
+376,QUEQUE NUEZ,0,4000,4000,Pasteleria Seca,100,0,Unidad
+380,PAN DE MIEL,0,800,800,Pasteleria Seca,100,0,Unidad
+382,EMPOLVADOS,0,1300,1300,Pasteleria Seca,100,0,Unidad
+384,BRAZO DE REINA,0,1300,1300,Pasteleria Seca,100,0,Unidad
+386,BRAZO DE REINA,0,7900,7900,Pasteleria Seca,100,0,Unidad
+388,BROWNIE CHOCOLATE,0,1300,1300,Pasteleria Seca,100,0,Unidad
+390,ROLLOS DE CANELA,0,1300,1300,Pasteleria Seca,100,0,Unidad
+392,CHILENITOS,0,1200,1200,Pasteleria Seca,100,0,Unidad
+394,GALLETAS TRADISIONAL,0,10000,10000,Pasteleria Seca,100,0,Granel
+400,EMPOLVADOS,0,1300,1300,Pasteleria Seca,100,0,Unidad
+406,FACTURITAS,0,800,800,Bolleria,100,0,Unidad
+408,BERLINES MANJAR,0,1100,1100,Bolleria,100,0,Unidad
+410,BERLINES MIXTO MANJAR CREMA,0,1100,1100,Bolleria,100,0,Unidad
+412,BERLIN CREMA,0,1100,1100,Bolleria,100,0,Unidad
+414,FACTURITAS MARRASQUINO,0,800,800,Bolleria,100,0,Unidad
+416,FACTURITAS MANJAR,0,800,800,Bolleria,100,0,Unidad
+418,FACTURITAS MERMELADA,0,800,800,Bolleria,100,0,Unidad
+420,DONA,0,1200,1200,Bolleria,100,0,Unidad
+422,ROLLITO DE CANELA,0,1300,1300,Bolleria,100,0,Unidad

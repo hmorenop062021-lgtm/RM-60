@@ -7,9 +7,19 @@ import datetime
 import re
 import keyboard
 
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+if getattr(sys, 'frozen', False):
+    EXE_DIR = os.path.dirname(os.path.abspath(sys.executable))
+    MEI_DIR = getattr(sys, '_MEIPASS', EXE_DIR)
+    if os.path.exists(os.path.join(EXE_DIR, "config.json")):
+        BASE_DIR = EXE_DIR
+    else:
+        BASE_DIR = MEI_DIR
+    LOG_PATH = os.path.join(EXE_DIR, "proxy.log")
+else:
+    BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+    LOG_PATH = os.path.join(BASE_DIR, "proxy.log")
+
 CONFIG_PATH = os.path.join(BASE_DIR, "config.json")
-LOG_PATH = os.path.join(BASE_DIR, "proxy.log")
 
 def log(msg):
     now = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S.%f")[:-3]
